@@ -1,0 +1,8 @@
+Credits:
+jump.wav by flush -- https://opengameart.org/content/jump-sound-16bit -- License: CC-BY-SA 4.0
+PickupBook4.wav by jomse - Jonas Molgaard -- https://freesound.org/s/428663/ -- License: Attribution 4.0
+PickupBook2.wav by jomse - Jonas Molgaard -- https://freesound.org/s/428665/ -- License: Attribution 4.0
+ghost.wav by Vinrax -- https://opengameart.org/content/ghost-pain -- License: CC-BY 3.0
+Menu Selection Click.wav by NenadSimic -- https://opengameart.org/content/menu-selection-click -- License: CC-BY 3.0
+Outdoor_Ambiance.wav by vi1e8 - Jon Butler -- https://opengameart.org/content/outdoor-ambiance -- License: CC-BY 3.0
+Socapex - Dark ambiance.wav by tarfmagougou -- https://opengameart.org/content/dark-ambiance -- License: CC-BY-SA 3.0
