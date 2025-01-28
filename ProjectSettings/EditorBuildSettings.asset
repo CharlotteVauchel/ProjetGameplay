@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Cours/UI UX/Menu.unity
     guid: 5bd819889ab984064b6ad4ef401ee48e
   - enabled: 1
-    path: Assets/LostPages/Scenes/Menu.unity
+    path: Assets/LostPages/Scenes/Boot.unity
     guid: e5c4e2df7ac09654ea0229a923763df1
   - enabled: 1
     path: Assets/LostPages/Scenes/LevelsMenu.unity
