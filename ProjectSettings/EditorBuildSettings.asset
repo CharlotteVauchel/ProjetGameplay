@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LostPages/Scenes/Level2.unity
     guid: 537803d03fe4b794089937c90f0d3385
+  - enabled: 1
+    path: Assets/LostPages/Scenes/Level3.unity
+    guid: 1470a611c3c26f949b026e12effd1db9
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 5ba7d4cd176b7a14fa26df2ace4b16bd, type: 2}
