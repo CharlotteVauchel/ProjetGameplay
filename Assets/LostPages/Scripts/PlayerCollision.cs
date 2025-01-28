@@ -7,10 +7,10 @@ public class PlayerCollision : MonoBehaviour
 {
     public GameObject pickupEffect;
     public GameObject ghostEffect;
+
     public float pickupEffectTime;
     public float ghostEffectTime;
-    private bool canInstantiate = true;
-    private bool isInvincible = false;
+
     public AudioClip hitSound;
     public AudioClip killSound;
     public AudioClip pageSound;
@@ -18,6 +18,9 @@ public class PlayerCollision : MonoBehaviour
     private AudioSource audioSource;
 
     public SkinnedMeshRenderer rend;
+
+    private bool canInstantiate = true;
+    private bool isInvincible = false;
 
     private void Start()
     {
@@ -54,7 +57,7 @@ public class PlayerCollision : MonoBehaviour
         {
             audioSource.PlayOneShot(hitSound);
             //Je suis blessé
-            isInvincible = true;
+            isInvincible = true; //Pour ne pas être touchée plusieurs fois d'affilé par le même fantome
             ScoreManager.instance.SetHealth(-1);
             StartCoroutine("ResetInvincible");
         }
@@ -62,8 +65,7 @@ public class PlayerCollision : MonoBehaviour
         if (collision.gameObject.tag == "Ghost" && canInstantiate) //Si je saute sur le fantome
         {
             audioSource.PlayOneShot(killSound);
-            //collision.gameObject.transform.parent.gameObject.GetComponent<Collider>().enabled = false;
-            canInstantiate = false;
+            canInstantiate = false; //Pour ne pas tuer plusieurs fois un objet et causer des erreurs car l'objet n'existe plus
             GameObject go = Instantiate(ghostEffect, collision.transform.position, Quaternion.identity);
             Destroy(go, ghostEffectTime);
 

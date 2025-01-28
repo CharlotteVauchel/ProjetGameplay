@@ -6,7 +6,6 @@ public class PagesAnim : MonoBehaviour
 {
     public Vector3 dir;
 
-
     // Update is called once per frame
     void Update()
     {
