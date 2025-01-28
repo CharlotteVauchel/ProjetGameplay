@@ -355,7 +355,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4578313511788064741}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40cc180ef3342244db5559557724e180, type: 3}
+  m_Script: {fileID: 11500000, guid: 06fa65fd4ab477441a40deb3e9fe126f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickupEffect: {fileID: 4627784114590810537, guid: ae6ca49bdac09514bb1a0b332e97d0b5, type: 3}
