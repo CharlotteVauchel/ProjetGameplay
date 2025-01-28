@@ -349,7 +349,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1379232267}
         m_TargetAssemblyTypeName: BootManager, Assembly-CSharp
         m_MethodName: Quit
         m_Mode: 1
@@ -2208,7 +2208,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1379232267}
         m_TargetAssemblyTypeName: BootManager, Assembly-CSharp
         m_MethodName: LoadLevelMenu
         m_Mode: 1
